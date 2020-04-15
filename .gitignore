@@ -1,0 +1,8 @@
+bin
+obj
+.vscode
+.dS_Store
+appsettings.json
+*.db
+api/WeatherForecast.cs
+api/Controllers/WeatherForecastController.cs
