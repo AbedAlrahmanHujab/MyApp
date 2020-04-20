@@ -1,0 +1,81 @@
+// let data=24//internal declare as number;
+// data='asdfas';
+// ////////////////////
+// let data1:number;//declare as a number;
+// let data11:string;
+// let data111:float;//fail type it will give error
+// data1=52;
+// data1='523';
+// /////////////////////
+// let data2;//internal declare as any;
+// data2='test';
+// data2=15;
+// data2=undefined;
+// /////////////////////
+// let data3:any //I can declare with any type;
+// data3=15;
+// data3='test';
+// data3=undefined;
+// /////////////////////
+// let data4:string | number// I can declare two type at the same time;
+// data4='test';
+// data4=15;
+// data4=undefined;
+// /////////////////////
+// const car1={
+//     color :'blue',
+//     model:'BMW'
+// }
+// const car2={
+//     color :'red',
+//     model:'Mercedes',
+//     topspeed:100
+// }
+// //////////////////////
+// interface ICar{
+//     color:string,
+//     model:string
+// }
+// const car3:ICar={
+//     color :'blue',
+//     model:'BMW'
+// }
+// const car4:ICAR={
+//     color :'red',
+//     model:'Mercedes',
+//     topspeed:100
+// }
+// ///////////////////////
+// interface ICar2{
+//     color:string,
+//     model:string,
+//     topspeed?:number
+// }
+// const car5:ICar2={
+//     color :'blue',
+//     model:'BMW'
+// }
+// const car6:ICar2={
+//     color :'red',
+//     model:'Mercedes',
+//     topspeed:100
+// }
+// ////////////////////////
+// const multiply = (x:any,y:any)=>{
+//     return x*y;
+// }
+// const multiply1 = (x:number,y:number)=>{
+//     return x*y;
+// }
+// const multiply2 = (x:number,y:number):string=>{
+//     return (x*y).toString();
+// }
+// const multiply3 = (x:number,y:number):string=>{
+//     x*y;
+// }
+// const multiply4 = (x:number,y:number):void=>{
+//     x*y;
+// }
+// ///////////////////////
+
+// rafc///this to make componant snab   
